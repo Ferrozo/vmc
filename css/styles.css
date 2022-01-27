@@ -405,11 +405,11 @@ nav ul li a:hover {
 
 .two-card-container .market-1 {
 
-    background-image: url("../assets/nokia1.jpg");
+    background-image: url(../assets/nokia1.jpg);
 }
 
 .market-2 {
-    background-image: url("../assets/printerM1.jpg");
+    background-image: url(../assets/printerM1.jpg);
 }
 
 .market-header {
