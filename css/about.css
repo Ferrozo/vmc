@@ -1,0 +1,99 @@
+:root {
+    --primary-800: #1B3BDC;
+    --secondary--450: #7C99AC;
+    --secondary-500: #1C6DD0;
+    --text-gray-700: #333;
+    --text-white-1000: #fff;
+    --text-white-850: #F4F7F6;
+    --facebook: #4267B2;
+    --whatsapp: #25D366;
+    --twitter: #00acee;
+    --terciary-900: #20365c;
+}
+
+.main-about {
+    min-height: 100vh;
+    padding: 0 60px;
+    color: var(--text-gray-700);
+    font-size: 18px;
+}
+
+.about-video-mission {
+    display: flex;
+}
+
+.about-header-info {
+    display: flex;
+    min-height: 300px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-header-info h1 {
+    font-size: 30px;
+    font-weight: bold;
+    max-width: 380px;
+    margin: 40px 0;
+    width: 100%;
+    color: var(--text-gray-700);
+}
+
+.about-header-info p {
+    width: 100%;
+    max-width: 550px;
+}
+
+.about-video-mission {
+    display: flex;
+    margin-top: 60px;
+}
+
+.about-video, .our-mission {
+    width: 50%;
+}
+
+.our-mission h2 {
+    margin-bottom: 20px;
+}
+
+.our-mission p {
+    max-width: 500px;
+}
+
+@media (max-width: 720px) {
+    .main-about {
+        display: flex;
+        flex-direction: column;
+        margin-top: 120px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-video-mission {
+        flex-direction: column;
+    }
+
+    .about-header-info h1 {
+        max-width: 400px;
+        width: 100%;
+    }
+
+    .about-video, .our-mission {
+        margin-bottom: 30px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 520px) {
+
+    .about-video iframe {
+        
+    }
+}
+
+@media (max-width: 375px) {
+
+    .about-video iframe {
+        width: 320px;
+    }
+}

@@ -1,0 +1,57 @@
+:root {
+    --primary-800: #1B3BDC;
+    --secondary--450: #7C99AC;
+    --secondary-500: #1C6DD0;
+    --text-gray-700: #333;
+    --text-white-1000: #fff;
+    --text-white-850: #F4F7F6;
+    --facebook: #4267B2;
+    --whatsapp: #25D366;
+    --twitter: #00acee;
+    --terciary-900: #20365c;
+}
+
+.path-link {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background: #dedede;
+    padding: 0 60px;
+}
+
+
+.path-link a {
+    text-decoration: none;
+    color: var(--text-gray-700);
+}
+
+.category-header-title {
+    display: flex;
+    align-items: center;
+    height: 150px;
+    justify-content: center;
+}
+
+.category-header-title h1 {
+    color: var(--text-gray-700);
+    font-size: 45px;
+    font-weight: bold;
+}
+
+
+@media (max-width: 620px) {
+    .path-link {
+    padding: 0 20px;
+        margin-top: 125px;
+    }
+}
+
+@media (max-width: 420px) {
+    .category-header-title {
+        text-align: center;
+        margin: 0 10px;
+    }
+    .category-header-title h1 {
+        font-size: 32px;
+    }
+}

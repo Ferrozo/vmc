@@ -41,8 +41,6 @@ let products = [
     }
 ];
 
-
-
 //slider js
 
 let manualNav = function (manual){
@@ -162,4 +160,29 @@ function totalCost(product){
 
 }
 
-onLoadCartNumbers();
+
+const navSlider =  () =>{
+    const burguer = document.querySelector('.nav-burguer');
+    const nav = document.querySelector('.nav-btn-links');
+    const mobileAnchor = document.querySelectorAll('.nav-btn-links ul li');
+    const mobileNavClose = document.querySelectorAll('.nav-burguer i');
+
+    burguer.addEventListener('click', () =>{
+        nav.classList.toggle('nav-btn-active');
+
+        mobileAnchor.forEach((anchor, index) =>{
+            if(anchor.style.animation){
+                anchor.style.animation = '';
+            }else{
+                anchor.style.animation = `mobileAnchors 0.5s ease forwards ${index / 7 + 0.6}s`;
+            }
+        });
+    })
+}
+
+const main = ()=> {
+    navSlider();
+    onLoadCartNumbers();
+};
+
+main();

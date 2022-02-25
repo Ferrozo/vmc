@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,200&display=swap" rel="stylesheet">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="../assets/Logo-3.png" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/carousel.css">
@@ -31,32 +32,35 @@
         </div>
         <nav>
             <ul>
-                <li><a href="#"><i class="fa fa-laptop"></i> Computadores</a></li>
-                <li><a href="#"><i class="fa fa-mobile"></i> Smartphones</a></li>
-                <li><a href="#"><i class="fa fa-tablet"></i> Tablets</a></li>
-                <li><a href="#"><i class="fa fa-print"></i> Impressosar</a></li>
-                <li><a href="#"><i class="fa fa-paint-brush"></i> Toners</a></li>
-                <li><a href="#"><i class="fa fa-headphones-alt"></i> Acessorios</a></li>
-                <li><a href="#"><i class="fa fa-desktop"></i> Escritorio</a></li>
+                <li><a href="./pages/computer.html"><i class="fa fa-laptop"></i> Computadores</a></li>
+                <li><a href="./pages/mobile.html"><i class="fa fa-mobile"></i> Smartphones e Tablets</a></li>
+                <li><a href="./pages/printer.html"><i class="fa fa-print"></i> Impressoras</a></li>
+                <li><a href="./pages/toners.html"><i class="fa fa-paint-brush"></i> Toners</a></li>
+                <li><a href="./pages/acessories.html"><i class="fa fa-headphones-alt"></i> Acessorios</a></li>
+                <li><a href="./pages/office.html"><i class="fa fa-desktop"></i> Escritorio</a></li>
             </ul>
         </nav>
     </header>
     <div class="mobile-nav">
         <div class="mobile-top">
-            <a href="#"><i class="fa fa-bars"></i></a>
+            <button class="nav-burguer"><i class="fa fa-bars"></i></button>
             <a href="" class="logo-btn">vmc <span>angola</span></a>
-            <!-- <ul>
-                <li><a href="">Computadores</a></li>
-                <li><a href="">Impressoras</a></li>
-                <li><a href="">Acessorios</a></li>
-                <li><a href=""></a>Smartphones</li>
-            </ul> -->
             <div class="cart-div">
                 <a href="./pages/cart.html"><i class="fa fa-shopping-cart"></i> <span>0</span></a>
             </div>
         </div>
         <div class="mobile-bottom">
             <input type="text" placeholder="Pesquisar producto"><button>Procurar</button>
+        </div>
+        <div class="nav-btn-links">
+            <ul>
+                <li><a href="pages/computer.html"><i class="fa fa-laptop"></i> Computadores</a></li>
+                <li><a href="./pages/mobile.html"><i class="fa fa-mobile"></i> Smartphones e Tablets</a></li>
+                <li><a href="./pages/printer.html"><i class="fa fa-print"></i> Impressoras</a></li>
+                <li><a href="./pages/toners.html"><i class="fa fa-paint-brush"></i> Toners</a></li>
+                <li><a href="./pages/acessories.html"><i class="fa fa-headphones-alt"></i> Acessorios</a></li>
+                <li><a href="./pages/office.html"><i class="fa fa-desktop"></i> Escritorio</a></li>
+            </ul>
         </div>
     </div>
     <main>
@@ -65,8 +69,8 @@
                 <div class="slide active">
                     <img src="./assets/carousel1.jpg" alt="">
                     <div class="slider-info">
-                        <h2>Marca do producto 1</h2>
-                        <p>Producto information</p>
+                        <h2>Portátil HP I3</h2>
+                        <p><strong>HP</strong> Computador portátil HP I3 250 15.6 I3-1005G1 <br> Full HD Windows 10 Pro</p>
                     </div>
                 </div>
                 <div class="slide">
@@ -79,8 +83,8 @@
                 <div class="slide">
                     <img src="./assets/carousel3.jpg" alt="">
                     <div class="slider-info">
-                        <h2>Marca do producto 3</h2>
-                        <p>Producto information</p>
+                        <h2>Portátil Acer Aspire 3 AMD</h2>
+                        <p>Computador portátil Acer Aspire 3 AMD A3020E 4 G SSD 128G 14</p>
                     </div>
                 </div>
                 <div class="slider-navigation">
@@ -90,7 +94,6 @@
                 </div>
             </div>
         </div>
-
         <div class="quality-delivery">
             <div class="quality-content">
                 <i class="fa fa-rocket"></i>
@@ -419,11 +422,11 @@
             <div class="card-container">
                 <div class="product-card">
                     <div class="img-card">
-                        <img src="https://vmcangola.com/wp-content/uploads/2021/11/unnamed-1.jpg" alt="">
+                        <img src="./assets/products/acessories/1645345954954.jpg" alt="">
                     </div>
                     <div class="card-descr">
-                        <p>Marca do producto</p>
-                        <span>Pequena descripcao</span>
+                        <p>Wireless G</p>
+                        <span>Multifuncional Print Server</span>
                     </div>
                     <div class="card-star">
                         <i class="fa fa-star"></i>
@@ -432,17 +435,17 @@
                         <i class="fa fa-star"></i>
                     </div>
                     <div class="detail-price">
-                        <p>550.000kzs</p>
+                        <p>20.000kzs</p>
                         <button><i class="fa fa-cart-plus"></i></button>
                     </div>
                 </div>
                 <div class="product-card">
                     <div class="img-card">
-                        <img src="https://vmcangola.com/wp-content/uploads/2021/11/unnamed.jpg" alt="">
+                        <img src="./assets/products/acessories/1645037801336.jpg" alt="">
                     </div>
                     <div class="card-descr">
-                        <p>Marca do producto</p>
-                        <span>Pequena descripcao</span>
+                        <p>Afia lapis</p>
+                        <span>Afia lapis com formato de coração</span>
                     </div>
                     <div class="card-star">
                         <i class="fa fa-star"></i>
@@ -451,17 +454,17 @@
                         <i class="fa fa-star"></i>
                     </div>
                     <div class="detail-price">
-                        <p>550.000kzs</p>
+                        <p>50,00kzs</p>
                         <button><i class="fa fa-cart-plus"></i></button>
                     </div>
                 </div>
                 <div class="product-card">
                     <div class="img-card">
-                        <img src="https://vmcangola.com/wp-content/uploads/2021/11/4ZB97A-1_T1563420201.png" alt="">
+                        <img src="./assets/products/acessories/1645345989875.jpg" alt="">
                     </div>
                     <div class="card-descr">
-                        <p>Marca do producto</p>
-                        <span>Pequena descripcao</span>
+                        <p>Switch 24</p>
+                        <span>Switch 24 dlic 10/100/s/ gestão QOS M</span>
                     </div>
                     <div class="card-star">
                         <i class="fa fa-star"></i>
@@ -470,17 +473,17 @@
                         <i class="fa fa-star"></i>
                     </div>
                     <div class="detail-price">
-                        <p>550.000kzs</p>
+                        <p>43.819.8kzs</p>
                         <button><i class="fa fa-cart-plus"></i></button>
                     </div>
                 </div>
                 <div class="product-card">
                     <div class="img-card">
-                        <img src="https://vmcangola.com/wp-content/uploads/2021/11/4ZB97A-1_T1563420201.png" alt="">
+                        <img src="./assets/products/acessories/1645345998043.jpg" alt="">
                     </div>
                     <div class="card-descr">
-                        <p>Marca do producto</p>
-                        <span>Pequena descripcao</span>
+                        <p>HP Laserjet</p>
+                        <span>Impressora HP Laserjet</span>
                     </div>
                     <div class="card-star">
                         <i class="fa fa-star"></i>
@@ -489,17 +492,17 @@
                         <i class="fa fa-star"></i>
                     </div>
                     <div class="detail-price">
-                        <p>550.000kzs</p>
+                        <p>178.856,6kzs</p>
                         <button><i class="fa fa-cart-plus"></i></button>
                     </div>
                 </div>
                 <div class="product-card">
                     <div class="img-card">
-                        <img src="https://vmcangola.com/wp-content/uploads/2021/11/4ZB97A-1_T1563420201.png" alt="">
+                        <img src="./assets/products/office/agrafador_punch.jpg" alt="">
                     </div>
                     <div class="card-descr">
-                        <p>Marca do producto</p>
-                        <span>Pequena descripcao</span>
+                        <p>Agrafador ID </p>
+                        <span>Agrafador  ID card Punch 34677</span>
                     </div>
                     <div class="card-star">
                         <i class="fa fa-star"></i>
@@ -508,17 +511,17 @@
                         <i class="fa fa-star"></i>
                     </div>
                     <div class="detail-price">
-                        <p>550.000kzs</p>
+                        <p>6.200,00kzs</p>
                         <button><i class="fa fa-cart-plus"></i></button>
                     </div>
                 </div>
                 <div class="product-card">
                     <div class="img-card">
-                        <img src="https://vmcangola.com/wp-content/uploads/2021/11/4ZB97A-1_T1563420201.png" alt="">
+                        <img src="/assets/products/office/agrafador_idustrial.jpg" alt="">
                     </div>
                     <div class="card-descr">
-                        <p>Marca do producto</p>
-                        <span>Pequena descripcao</span>
+                        <p>Agrafador Industrial</p>
+                        <span>Agrafador Industrial 34072</span>
                     </div>
                     <div class="card-star">
                         <i class="fa fa-star"></i>
@@ -527,17 +530,17 @@
                         <i class="fa fa-star"></i>
                     </div>
                     <div class="detail-price">
-                        <p>550.000kzs</p>
+                        <p>13.500,00kzs</p>
                         <button><i class="fa fa-cart-plus"></i></button>
                     </div>
                 </div>
                 <div class="product-card">
                     <div class="img-card">
-                        <img src="./assets/products/4.jpg" alt="">
+                        <img src="./assets/products/office/agrafador_idustrial_2.jpg" alt="">
                     </div>
                     <div class="card-descr">
-                        <p>Marca do producto</p>
-                        <span>Pequena descripcao</span>
+                        <p>Agrafador Fegol </p>
+                        <span>Agrafador de marca Fegol</span>
                     </div>
                     <div class="card-star">
                         <i class="fa fa-star"></i>
@@ -546,17 +549,17 @@
                         <i class="fa fa-star"></i>
                     </div>
                     <div class="detail-price">
-                        <p>550.000kzs</p>
+                        <p>6.080,00kzs</p>
                         <button><i class="fa fa-cart-plus"></i></button>
                     </div>
                 </div>
                 <div class="product-card">
                     <div class="img-card">
-                        <img src="https://vmcangola.com/wp-content/uploads/2021/11/4ZB97A-1_T1563420201.png" alt="">
+                        <img src="/assets/products/office/xactos.jpg" alt="">
                     </div>
                     <div class="card-descr">
-                        <p>Marca do producto</p>
-                        <span>Pequena descripcao</span>
+                        <p>X actos</p>
+                        <span>X actos Kool</span>
                     </div>
                     <div class="card-star">
                         <i class="fa fa-star"></i>
@@ -565,7 +568,7 @@
                         <i class="fa fa-star"></i>
                     </div>
                     <div class="detail-price">
-                        <p>550.000kzs</p>
+                        <p>2.035,00kzs</p>
                         <button><i class="fa fa-cart-plus"></i></button>
                     </div>
                 </div>
@@ -584,32 +587,37 @@
         </div>
         <div class="all-footer">
            <div class="footer">
-                <a href=""><h1>vmc-angola</h1></a>
-                <h3><i class="fa fa-headset"> </i> &nbsp; (+244) 92x xxx xxx xxx</h3>
+                <a href="" class="logo-footer"><h1>vmc-angola</h1></a>
+                <h3><i class="fa fa-headset"> </i> &nbsp; (+244) 927 219 771</h3>
            </div>
            <div class="footer">
                 <h4>Productos</h4>
                 <ul>
-                    <li><a href="">Computadores</a></li>
-                    <li><a href="">Telemoveis e tablet</a></li>
-                    <li><a href="">Tinteiros e tonners</a></li>
-                    <li><a href="">Impressoras</a></li>
+                    <li><a href="./pages/acessories.html">Acessorios</a></li>
+                    <li><a href="./pages/computer.html">Computadores</a></li>
+                    <li><a href="./pages/printer.html">Impressoras</a></li>
+                    <li><a href="./pages/office.html">Material de escritorio</a></li>
+                    <li><a href="./pages/mobile.html">Smartphone e tablets</a></li>
+                    <li><a href="./pages/toners.html">Tintas e toners</a></li>
+                    <li><a href="#">Outros</a></li>
                 </ul>
            </div>
            <div class="footer">
                 <h4>Serviços</h4>
                 <ul>
-                    <li><a href="">Computadores</a></li>
-                    <li><a href="">Telemoveis e tablet</a></li>
-                    <li><a href="">Tinteiros e tonners</a></li>
-                    <li><a href="">Impressoras</a></li>
+                    <li><a href="#">Reparação de Computadores</a></li>
+                    <li><a href="#">Manutenção de Computadores</a></li>
+                    <li><a href="#">Reparação de impressoras</a></li>
+                    <li><a href="#">Manutenção de fotocopiadoras</a></li>
+                    <li><a href="#">Design e impressão de PVC</a></li>
+                    <li><a href="#">Instalçao de driver para impressoras</a></li>
                 </ul>
            </div>
            <div class="footer">
             <h4>Informações</h4>
             <ul>
-                <li><a href="">Quem somos?</a></li>
-                <li><a href="">Contactar-nos</a></li>
+                <li><a href="./pages/about.html">Sobre nós</a></li>
+                <li><a href="./pages/contact.html">Contactar-nos</a></li>
             </ul>
        </div>
         </div>
